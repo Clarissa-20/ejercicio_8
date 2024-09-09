@@ -1,0 +1,45 @@
+body {
+    font-family: 'Exo 2', sans-serif; /* Fuente con un estilo futurista */
+    background: linear-gradient(to bottom, #0a0a0a, #1e1e1e);
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal con un estilo futurista */
+.container {
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #29a3a3;
+    box-shadow: 0 0 40px rgba(41, 163, 163, 0.6), inset 0 0 20px rgba(41, 163, 163, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Título con un diseño de pantalla futurista */
+h1 {
+    color: #29a3a3;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px #29a3a3, 0 0 40px #29a3a3;
+}
+
+/* Div que muestra el resultado con un estilo de texto digital */
+#resultado {
+    color: #e0e0e0;
+    font-size: 2.1rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #00cccc, #004d4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(41, 163, 163, 0.8);
+    border: 1px solid #29a3a3;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(41, 163, 163, 0.4);
+}
